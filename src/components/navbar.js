@@ -41,6 +41,9 @@ import {
                     <NavItem>
                       <NavLink href="/whyMe">Why Me</NavLink>
                     </NavItem>
+                    <NavItem>
+                      <NavLink href="/gallery">Gallery</NavLink>
+                    </NavItem>
                     <UncontrolledDropdown nav inNavbar>
                       <DropdownToggle nav caret>
                         Connect with me 
