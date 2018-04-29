@@ -8,7 +8,7 @@ import {MyPortfolio} from './components/myPortfolio';
 import {WhyMe} from './components/whyMe';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { FooterComponent } from './components/footer';
-
+import {GridListExampleSimple} from './components/galleryPage';
 
 class App extends Component {
   render() {
@@ -19,6 +19,7 @@ class App extends Component {
         <Route exact path='/' component={landingPage} />
         <Route exact path='/myPortfolio' component={MyPortfolio} />
         <Route exact path='/whyMe' component={WhyMe}/>
+        <Route exact path='/gallery' component={GridListExampleSimple}/>
         <FooterComponent/>
       </div>
       </Router>
